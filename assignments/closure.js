@@ -1,6 +1,21 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function godThreat() {
+  const god = "I am a God Threat monster";
+  console.log(`Fear me, for ${god}`);
+
+  function dragonThreat() {
+    console.log(`I am a Dragon Threat. Only those who can say ${god} are stronger than me`);
+  }
+  dragonThreat();
+}
+godThreat();
+
+
+
+
+
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
